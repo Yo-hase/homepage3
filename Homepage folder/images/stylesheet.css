@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+header {
+  padding: 30px 4% 10px;
+  height: 80px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  /*子要素の縦方向の配置を中央に*/
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.pc-nav {
+  display: flex;
+  margin-left: auto;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: auto;
+}
+
+li {
+  padding: 10px 20px;
+}
+
+.header-button {
+  box-sizing: border-box;
+  padding: 0.5em 1.2em;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+} 
+
+.header-post {
+  background: red;
+  border: 1px red solid;
+  border-radius: 20px;
+}  
+
+@media screen and (max-width: 480px) {
+  .header-post {
+    display: none;
+  }
+} 
+
+#wrap {
+  display: flex;            
+  flex-wrap: wrap;          /* 下に回り込む設定 */
+  justify-content: center;  /* flexboxの要素をセンターに寄せる */
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  width: 50%;
+  text-align: center;
+  background-color: #BAD3FF;
+}
+
+.right-bar {
+  width: 50%;
+  text-align: center;
+  background-color: #75A9FF;
+}
+
+h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: normal;
+  color: #000000;
+}
+
+button {
+  color: #000000;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#about {
+  text-align: center;
+  padding: 100px;
+  min-height: 70vh;
+}
+
+.header {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #000000;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.container{
+  display:flex;
+  justify-content:center;
+  padding: 0 200px;
+}
+
+.item{
+  width: 300px;
+  height: 450px;
+  background:#C6E6FB;
+  text-align:center;
+  font-size:30px;
+  line-height:1.5em;
+  margin: 0 20px;
+}
+
+.image-area p {
+  width: 900px;
+  height: 450px;
+  background:#C6E6FB;
+  text-align:center;
+  font-size:30px;
+  line-height:1.5em;
+  margin: 0 20px;
+}
+
+.first-row{
+  display: flex;
+}
+
+.r-1{
+  margin: 5px;
+}
+
+.image-area{
+  overflow: hidden;
+}
+
+.image-area img{
+  width: 100%;
+  height: auto;
+}
+
+.discription-area{
+  flex-basis: 50%;
+  margin-right: 200px;
+}
+
+.small-image p {
+  width: auto;
+  height: auto;
+  background:#C6E6FB;
+  text-align:center;
+  line-height:1.5em;
+  margin: 0 20px;
+}
+
+.small-element {
+  display: flex;
+  justify-content:center;
+}
+
+.small-image {
+  flex-basis: 25%;
+}
+
+.btn {
+  box-sizing: border-box;
+  padding: 0.5em 1.2em;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  color: #ffffff;
+  background: greenyellow;
+  border: 1px greenyellow solid;
+  border-radius: 20px;
+}  
+
+
+
+
